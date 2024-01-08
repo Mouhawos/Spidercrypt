@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="">
+    <title>Pracing Page - Spidercrypt</title>
+
+    <script async src="https://js.stripe.com/v3/pricing-table.js"></script>
+    <!-- Ajoutez ceci dans la section head de votre document -->
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            // Ajoutez des scripts spécifiques à la page de tarification si nécessaire
+        });
+    </script>
+</head>
+<body>
+    <header class="header transparent">
+        <!-- Vous pouvez inclure le même en-tête que dans la première page si nécessaire -->
+    </header>
+
+    <main>
+        <!-- Ajoutez le contenu spécifique à la page de tarification si nécessaire -->
+
+        <!-- Section pour le tableau de tarification -->
+        <section class="subscription">
+            <h2></h2>
+
+            <!-- Composant personnalisé de tableau de tarification Stripe -->
+            <stripe-pricing-table pricing-table-id="prctbl_1ONJXzHNvRBzKEnMXz45i8GT"
+                publishable-key="pk_live_51MqB4YHNvRBzKEnMTnJipkChejmOyQWAVEDtGn10YRb76qi9yp6treSoBYH7Eat0eyVoRc7Sj5QjchUPIXvWBbqw00PWvb2Ocq">
+            </stripe-pricing-table>
+        </section>
+    </main>
+
+    <footer>
+        <!-- Vous pouvez inclure le même pied de page que dans la première page si nécessaire -->
+    </footer>
+</body>
+</html>
