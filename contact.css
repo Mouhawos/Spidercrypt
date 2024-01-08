@@ -1,0 +1,106 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f2f2f2;
+    color: #333;
+}
+
+header {
+    background-color: #efefef;
+    color: white;
+    padding: 1em;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+}
+
+.logo-container img {
+    width: 80px;
+    height: auto;
+    margin-right: 10px;
+}
+
+main {
+    padding: 2em;
+}
+
+.contact-form {
+    max-width: 600px;
+    margin: 0 auto;
+    background-image: url('efg.jpg'); /* Add your image file path */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 2em;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form h2 {
+    text-align: left; /* Align the title to the left */
+    margin-bottom: 20px; /* Adjust margin as needed */
+    font-size: 36px; /* Adjust the font size as needed */
+}
+
+label {
+    display: block;
+    margin-bottom: 0.5em;
+    color: #333;
+}
+
+input, textarea, select {
+    width: 100%;
+    padding: 0.8em;
+    margin-bottom: 1em;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #3498db;
+    color: white;
+    padding: 0.8em 1em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+
+
+
+/* Styles pour le pied de page */
+.footer {
+    text-align: center; /* Centre le texte horizontalement */
+    padding: 20px 0; /* Ajoute de l'espacement en haut et en bas du pied de page */
+    background-color: #f0f0f0; /* Ajoute une couleur de fond au pied de page si nécessaire */
+  }
+  
+  /* Vous pouvez également ajuster la largeur du pied de page si nécessaire */
+  .footer-container {
+    max-width: 1200px; /* Ajustez la largeur selon vos préférences */
+    margin: 0 auto; /* Centre le pied de page horizontalement sur la page */
+  }
+  
+  /* Styles pour les liens du pied de page */
+  .footer a {
+    color: #333; /* Couleur du texte pour les liens du pied de page */
+    margin: 0 10px; /* Ajoute une marge entre les liens pour un espacement */
+    text-decoration: none; /* Supprime la soulignement des liens */
+  }
+  
+  .footer a:hover {
+    color: #0076e3; /* Couleur de survol bleue pour les liens du pied de page */
+  }
+  
