@@ -1,0 +1,445 @@
+/* Réinitialisation des styles et styles de base */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #ffffff;
+  color: #000000;
+}
+
+/* Styles pour la barre de navigation */
+header {
+  z-index: 1000; /* Valeur supérieure pour la superposition */
+  background-color: transparent; /* Fond transparent */
+  width: 100%;
+}
+
+/* Styles pour centrer les éléments de navigation horizontalement */
+nav {
+  display: flex;
+  justify-content: center; /* Centre horizontalement les éléments de la liste */
+  align-items: center;
+  height: 50px; /* Ajustez la hauteur de la barre de navigation selon vos besoins */
+}
+
+ul {
+  list-style: none;
+  display: flex;
+}
+
+li {
+  margin: 0 20px;
+}
+
+a {
+  text-decoration: none;
+  color: #000000;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+a:hover {
+  color: #0076e3; /* Couleur de survol bleue */
+}
+
+/* Styles pour le logo */
+.logo-container {
+  display: flex;
+  align-items: center;
+  margin-right: 50px; /* Augmentez la marge à droite pour décaler davantage le logo vers la droite */
+}
+
+.logo-container img {
+  width: 100px; /* Ajustez la largeur du logo selon vos besoins */
+  height: auto; /* Permet à la hauteur de s'ajuster automatiquement pour conserver les proportions */
+}
+
+
+/* Styles pour la barre de navigation */
+header {
+  z-index: 1000; /* Valeur supérieure pour la superposition */
+  background-color: transparent; /* Fond transparent */
+  width: 100%;
+  position: relative; /* Permet de positionner les éléments enfants par rapport à cette barre de navigation */
+}
+
+/* Styles pour la première image de la section hero */
+.hero {
+  background-image: url('abc.jpg'); /* Ajoutez le chemin de votre image */
+  background-size: cover; /* Ajuster la taille de l'image au contenu */
+  background-position: center; /* Centrer l'image horizontalement et verticalement */
+  color: #000000; /* Couleur du texte sur l'image d'arrière-plan */
+  text-align: left; /* Aligner le texte à gauche */
+  padding: 100px 0; /* Espacement pour le contenu de la section hero */
+  position: relative; /* Permet de positionner cette section par rapport à la barre de navigation */
+  top: -50px; /* Décale la section vers le haut pour la superposer à la barre de navigation */
+}
+   
+
+
+/* Style de la première section hero avec une image de fond */
+.hero {
+  
+  background-size: cover; /* Ajuster la taille de l'image au contenu */
+  background-position: center; /* Centrer l'image horizontalement et verticalement */
+  color: #000000; /* Couleur du texte sur l'image d'arrière-plan */
+  text-align: left; /* Aligner le texte à gauche */
+  padding: 100px 0; /* Espacement pour le contenu de la section hero */
+}
+
+/* Styles pour la deuxième section hero avec une image de fond */
+.hero-2 {
+  
+  background-size: cover; /* Ajuster la taille de l'image au contenu */
+  background-position: center; /* Centrer l'image horizontalement et verticalement */
+  color: #000000; /* Couleur du texte sur l'image d'arrière-plan */
+  text-align: left; /* Aligner le texte à gauche */
+  padding: 100px 0; /* Espacement pour le contenu de la section hero */
+}
+
+
+/* Styles pour le contenu de la section hero */
+.hero-content, .hero-2 .hero-content {
+  max-width: 600px; /* Limiter la largeur du contenu */
+  margin: 0 auto; /* Centrer le contenu horizontalement */
+  text-align: left; /* Aligner le texte à gauche */
+}
+
+/* Styles pour le titre de la section hero */
+.hero-title, .hero-2 .hero-title {
+  font-size: 58px; /* Augmenter la taille du titre */
+  margin-bottom: 20px;
+  line-height: 1.3; /* Ajuster l'espacement des lignes */
+  color: #000; /* Couleur de texte noire */
+  
+}
+
+/* Styles pour les paragraphes de la section hero */
+p, .hero-2 p {
+  font-size: 18px;
+  margin-bottom: 40px;
+}
+
+/* Styles pour le bouton "S'abonner" (cta-button) */
+#togglePricingButton {
+  background-color: #0285e2; /* Couleur de fond bleu métallique */
+  color: #fff; /* Couleur du texte en blanc */
+  padding: 10px 20px;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  cursor: pointer; /* Curseur de souris en main pour indiquer la clicabilité */
+  transition: background-color 0.3s; /* Transition de couleur de fond au survol */
+  margin-top: 20px; /* Marge supplémentaire en haut du bouton */
+}
+
+#togglePricingButton:hover {
+  background-color: #0076e3; /* Couleur de fond bleue au survol */
+}
+
+
+
+
+
+
+
+/* Styles pour la deuxième section hero avec une image de fond */
+.hero-2 {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: center;
+  height: 100vh; /* Ajustez la hauteur selon vos besoins */
+  color: #000000;
+  text-align: left;
+  padding: 100px 20px; /* Ajustez selon vos besoins */
+  background: none; /* Supprimez le fond de l'image */
+  background-color: #ffffff;
+}
+
+/* Styles améliorés pour le contenu de la deuxième section héros */
+.hero-2 .hero-content {
+  max-width: 800px; /* J'ai augmenté la largeur maximale pour un meilleur ajustement */
+  margin: 0 auto;
+  text-align: center; /* Centré le contenu */
+  position: relative;
+  right: 0;
+  color: #333; /* J'ai changé la couleur du texte à un ton plus foncé pour une meilleure lisibilité */
+}
+
+/* Styles améliorés pour le titre de la deuxième section héros */
+.hero-2 .hero-title {
+  font-size: 40px; /* J'ai légèrement augmenté la taille du titre */
+  margin-bottom: 30px; /* Réduit l'espacement en bas du titre */
+  line-height: 1.5; /* Ajuste la hauteur de ligne pour une meilleure lisibilité */
+  color: #000; /* Conserve la couleur du titre */
+}
+
+/* Styles améliorés pour les paragraphes de la deuxième section héros */
+.hero-2 p {
+  font-size: 20px; /* J'ai augmenté la taille de la police pour le texte */
+  margin-bottom: 25px; /* Réduit l'espacement en bas des paragraphes */
+}
+
+/* Styles pour la grille de produits */
+.product-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+/* Styles pour chaque produit dans la grille */
+.product {
+  width: 300px;
+  margin: 20px;
+  text-align: center;
+  background-color: #f4f4f4; /* Ajout d'une couleur de fond pour mieux délimiter les produits */
+  padding: 15px; /* Ajout de rembourrage pour un meilleur espacement interne */
+  border-radius: 8px;
+}
+
+/* Styles pour l'image du produit */
+.product img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+User
+
+/* Styles pour la deuxième section hero avec une image de fond */
+.hero-2 {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: center;
+  height: 100vh; /* Ajustez la hauteur selon vos besoins */
+  color: #000000;
+  text-align: left;
+  padding: 100px 20px; /* Ajustez selon vos besoins */
+  background: none; /* Supprimez le fond de l'image */
+  background-color: #ffffff;
+}
+
+/* Styles améliorés pour le contenu de la deuxième section héros */
+.hero-2 .hero-content {
+  max-width: 800px; /* J'ai augmenté la largeur maximale pour un meilleur ajustement */
+  margin: 0 auto;
+  text-align: center; /* Centré le contenu */
+  position: relative;
+  right: 0;
+  color: #333; /* J'ai changé la couleur du texte à un ton plus foncé pour une meilleure lisibilité */
+}
+
+/* Styles améliorés pour le titre de la deuxième section héros */
+.hero-2 .hero-title {
+  font-size: 40px; /* J'ai légèrement augmenté la taille du titre */
+  margin-bottom: 30px; /* Réduit l'espacement en bas du titre */
+  line-height: 1.5; /* Ajuste la hauteur de ligne pour une meilleure lisibilité */
+  color: #000; /* Conserve la couleur du titre */
+}
+
+/* Styles améliorés pour les paragraphes de la deuxième section héros */
+.hero-2 p {
+  font-size: 20px; /* J'ai augmenté la taille de la police pour le texte */
+  margin-bottom: 25px; /* Réduit l'espacement en bas des paragraphes */
+}
+
+/* Nouveaux styles pour la grille de photos rondes */
+.photo-grid {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 40px; /* Ajustez la marge selon vos préférences */
+}
+
+.round-photo {
+  text-align: center;
+}
+
+.round-photo img {
+  border-radius: 70%; /* Rend l'image ronde */
+  width: 200px; /* Ajustez la taille de l'image selon vos préférences */
+  height: 200px;
+  object-fit: cover; /* Conserve les proportions de l'image */
+}
+
+.round-photo p {
+  margin-top: 10px; /* Espacement entre l'image et le texte en dessous */
+  font-weight: bold;
+}
+
+
+/* Styles pour la troisième section hero avec une image de fond */
+.hero-3 {
+  background-color: #ffffff; /* Fond blanc */
+  text-align: left; /* Aligner le texte à gauche */
+  padding: 100px 0; /* Espacement pour le contenu de la section hero-3 */
+  position: relative; /* Permet de positionner cette section par rapport à la barre de navigation */
+  top: -50px; /* Décale la section vers le haut pour la superposer à la barre de navigation */
+  background: none; /* Supprimez le fond de l'image */
+}
+
+/* Assurez-vous de conserver les styles pour le contenu textuel dans la troisième section */
+.hero-3 .hero-content {
+  max-width: 800px; /* Ajustez la largeur du contenu selon vos préférences */
+  margin: 0 auto; /* Centrer le contenu horizontalement */
+  display: flex; /* Utilisation de flexbox pour la mise en page en deux colonnes */
+  align-items: center; /* Centrer verticalement le contenu */
+}
+
+.hero-3 .hero-content .text-content {
+  flex: 1; /* La première colonne prend le reste de l'espace disponible */
+  margin-bottom: 30px; /* Ajoute une marge en bas du texte */
+}
+
+.hero-3 .hero-content .image-container {
+  flex-shrink: 0; /* Empêche la réduction de la taille de cet élément */
+  margin-left: 120px; /* Ajustez la marge à gauche de l'image selon vos besoins */
+}
+
+.hero-3 .hero-content img {
+  max-width: 30%; /* La largeur maximale de l'image sera égale à 30% de la largeur de son conteneur */
+  height: auto; /* La hauteur s'ajustera automatiquement pour maintenir les proportions de l'image */
+  border: 2px solid #fff; /* Couleur de la bordure */
+  border-radius: 10px; /* Coins arrondis */
+}
+
+/* Styles pour la quatrième section hero avec une image de fond */
+.hero-4 {
+  background-color: #fff; /* Fond blanc */
+  text-align: left; /* Aligner le texte à gauche */
+  padding: 100px 0; /* Espacement pour le contenu de la section hero-4 */
+  position: relative; /* Permet de positionner cette section par rapport à la barre de navigation */
+  top: -50px; /* Décale la section vers le haut pour la superposer à la barre de navigation */
+  background: none; /* Supprimez le fond de l'image */
+}
+
+.hero-4 .hero-content {
+  max-width: 800px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap; /* Permet aux cartes de passer à la ligne si elles n'ont pas assez de place */
+  justify-content: flex-start;
+}
+
+
+.card {
+  flex: 0 0 calc(50% - 20px); /* Ajuste la largeur des cartes à 50% du conteneur, avec une marge de 20px entre elles */
+  box-sizing: border-box;
+  margin-bottom: 20px; /* Marge entre les cartes */
+}
+
+
+
+.card-content {
+  border: 2px solid #ddd;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  height: 300px; /* Ajustez la hauteur des cartes selon vos préférences */
+}
+
+.flex-container {
+  display: flex;
+  align-items: center;
+}
+
+.icon {
+  width: 50px; /* Ajustez la taille des icônes selon vos préférences */
+  height: 50px;
+  margin-right: 10px; /* Ajustez la marge entre l'icône et le texte selon vos préférences */
+}
+
+.top-left-icon {
+  order: -1; /* Change l'ordre pour placer l'icône en haut à gauche */
+}
+
+.top-right-icon {
+  margin-left: auto; /* Déplace l'icône en haut à droite */
+  order: 1; /* Change l'ordre pour placer l'icône en haut à droite */
+}
+
+.bottom-left-icon {
+  order: 2; /* Change l'ordre pour placer l'icône en bas à gauche */
+}
+
+
+.carte {
+  width: 300px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.carte img {
+  max-width: 100%;
+  border-radius: 4px;
+}
+
+
+
+
+
+/* Styles pour la cinquième section hero avec une image de fond */
+.hero-5 {
+  background-color: none; /* Changement de la couleur de fond à blanc */
+  text-align: left;
+  padding: 100px 0;
+  position: relative;
+  top: -50px;
+  background: none;
+}
+
+
+/* Ajoutez ces styles pour le bouton de contact */
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #3498db; /* Couleur de fond du bouton */
+  color: #ffffff; /* Couleur du texte du bouton */
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease; /* Effet de transition sur le survol */
+}
+
+.button:hover {
+  background-color: #1497d9; /* Nouvelle couleur de fond au survol */
+}
+
+
+
+
+/* Styles pour le pied de page */
+footer {
+  text-align: center;
+  padding: 20px 0; /* Ajoutez de la marge en haut et en bas du pied de page */
+  background-color: #f4f4f4; /* Ajoutez une couleur de fond pour le pied de page */
+}
+
+/* Styles pour la navigation dans le pied de page */
+footer nav {
+  margin-bottom: 10px; /* Ajoutez de l'espace entre la navigation et les icônes sociales */
+}
+
+/* Styles pour les icônes sociales dans le pied de page */
+.social-icons {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px; /* Ajoutez de l'espace entre les icônes sociales et le texte du pied de page */
+}
+
+.social-icons a {
+  margin: 0 10px; /* Ajoutez de l'espace entre les icônes sociales */
+}
+
+/* Styles pour le texte du pied de page */
+footer p {
+  margin: 0;
+  color: #555; /* Couleur du texte grise */
+}
