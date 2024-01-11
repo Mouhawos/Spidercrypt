@@ -443,3 +443,22 @@ footer p {
   margin: 0;
   color: #555; /* Couleur du texte grise */
 }
+
+
+/* Styles généraux ici */
+
+/* Styles pour les écrans larges (ordinateurs) */
+@media only screen and (min-width: 1200px) {
+    /* Styles spécifiques pour les écrans larges (ordinateurs de bureau) */
+}
+
+/* Styles pour les tablettes et ordinateurs portables */
+@media only screen and (min-width: 768px) and (max-width: 1199px) {
+    /* Styles spécifiques pour les tablettes et ordinateurs portables */
+}
+
+/* Styles pour les téléphones */
+@media only screen and (max-width: 767px) {
+    /* Styles spécifiques pour les téléphones */
+}
+
