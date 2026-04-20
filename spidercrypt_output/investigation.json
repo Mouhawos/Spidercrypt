@@ -1,0 +1,44 @@
+{
+  "report_id": "f7481b2c-0fcd-4050-ac43-cc74b3e6eb76",
+  "generated_at": "2026-04-11T00:02:08.731911+00:00",
+  "investigator": "SpidercryptEnterprise/2.0",
+  "subject": {
+    "actor_id": "f224383e-ac52-4c13-a7a4-46c855b0ec70",
+    "resource_id": null,
+    "days_back": 30,
+    "since": "2026-03-12T00:02:08.731000+00:00",
+    "until": "2026-04-11T00:02:08.731911+00:00"
+  },
+  "summary": {
+    "total_events": 0,
+    "anomalies_count": 0,
+    "risk_level": "FAIBLE",
+    "risk_score": 0.0,
+    "critical_signals": 0
+  },
+  "timeline": [],
+  "anomalies": [],
+  "statistics": {},
+  "risk_assessment": {
+    "score_global": 0.0,
+    "niveau": "FAIBLE",
+    "anomalies_total": 0,
+    "critiques": 0,
+    "erreurs": 0,
+    "taux_echec_pct": 0,
+    "risque_moyen_evt": 0
+  },
+  "recommendations": [
+    "Conserver ce rapport pendant au moins 3 ans (conformité RGPD Art.30)."
+  ],
+  "graph_summary": {
+    "total_actors": 0,
+    "total_resources": 0,
+    "total_edges": 0,
+    "top_actors": [],
+    "top_resources": [],
+    "top_relations": []
+  },
+  "signature_ed25519": null,
+  "signature_hash": "e62d16b2d520a71f7c291eda84925c58047e384b20c6a83d0a68367024408d17"
+}

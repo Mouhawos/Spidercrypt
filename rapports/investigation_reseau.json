@@ -1,0 +1,821 @@
+{
+  "report_id": "04f1aa77-9ba1-4c49-a512-795a135cf572",
+  "generated_at": "2026-04-13T23:58:11.623747+00:00",
+  "investigator": "SpidercryptEnterprise/2.0",
+  "subject": {
+    "actor_id": "user_5a5fadaa",
+    "resource_id": null,
+    "days_back": 30,
+    "since": "2022-12-02T05:00:00+00:00",
+    "until": "2023-01-01T05:00:00+00:00"
+  },
+  "summary": {
+    "total_events": 25,
+    "anomalies_count": 1,
+    "risk_level": "MODÉRÉ",
+    "risk_score": 0.57,
+    "critical_signals": 0
+  },
+  "timeline": [
+    {
+      "event_id": "5a5fadaafa8642fd060a5c77b7ca56af6bc5e126b59f48acc02805d260712757",
+      "timestamp_iso": "2023-01-01T00:00:00",
+      "timestamp_ms": 1672549200000,
+      "source": "audit",
+      "category": "system",
+      "action": "TRANSFERT_UDP",
+      "actor_id": "user_5a5fadaa",
+      "resource": ":server_0.9",
+      "succes": false,
+      "severite": "INFO",
+      "risque_score": 0.8,
+      "details": {
+        "resource_id": "server_0.9",
+        "details": {
+          "header_length": 7.2,
+          "malware_family": "Benign",
+          "protocol": "UDP",
+          "rate": 3.205291695174552
+        },
+        "risque_score": 0.1
+      },
+      "flags": [
+        "ECHEC",
+        "HEURE_INHABITUELLE"
+      ]
+    },
+    {
+      "event_id": "5a5fadaafa8642fd060a5c77b7ca56af6bc5e126b59f48acc02805d260712757",
+      "timestamp_iso": "2023-01-01T00:00:00",
+      "timestamp_ms": 1672549200000,
+      "source": "audit",
+      "category": "system",
+      "action": "TRANSFERT_UDP",
+      "actor_id": "user_5a5fadaa",
+      "resource": ":server_0.9",
+      "succes": false,
+      "severite": "INFO",
+      "risque_score": 0.8,
+      "details": {
+        "resource_id": "server_0.9",
+        "details": {
+          "header_length": 7.2,
+          "malware_family": "Benign",
+          "protocol": "UDP",
+          "rate": 3.317063186739099
+        },
+        "risque_score": 0.1
+      },
+      "flags": [
+        "ECHEC",
+        "HEURE_INHABITUELLE"
+      ]
+    },
+    {
+      "event_id": "5a5fadaafa8642fd060a5c77b7ca56af6bc5e126b59f48acc02805d260712757",
+      "timestamp_iso": "2023-01-01T00:00:00",
+      "timestamp_ms": 1672549200000,
+      "source": "audit",
+      "category": "system",
+      "action": "TRANSFERT_UDP",
+      "actor_id": "user_5a5fadaa",
+      "resource": ":server_1.0",
+      "succes": false,
+      "severite": "INFO",
+      "risque_score": 0.8,
+      "details": {
+        "resource_id": "server_1.0",
+        "details": {
+          "header_length": 8.0,
+          "malware_family": "Benign",
+          "protocol": "UDP",
+          "rate": 1.9924855391377687
+        },
+        "risque_score": 0.1
+      },
+      "flags": [
+        "ECHEC",
+        "HEURE_INHABITUELLE"
+      ]
+    },
+    {
+      "event_id": "5a5fadaafa8642fd060a5c77b7ca56af6bc5e126b59f48acc02805d260712757",
+      "timestamp_iso": "2023-01-01T00:00:00",
+      "timestamp_ms": 1672549200000,
+      "source": "audit",
+      "category": "system",
+      "action": "TRANSFERT_UDP",
+      "actor_id": "user_5a5fadaa",
+      "resource": ":server_1.0",
+      "succes": false,
+      "severite": "INFO",
+      "risque_score": 0.8,
+      "details": {
+        "resource_id": "server_1.0",
+        "details": {
+          "header_length": 8.0,
+          "malware_family": "Benign",
+          "protocol": "UDP",
+          "rate": 1.661655649718902
+        },
+        "risque_score": 0.1
+      },
+      "flags": [
+        "ECHEC",
+        "HEURE_INHABITUELLE"
+      ]
+    },
+    {
+      "event_id": "5a5fadaafa8642fd060a5c77b7ca56af6bc5e126b59f48acc02805d260712757",
+      "timestamp_iso": "2023-01-01T00:00:00",
+      "timestamp_ms": 1672549200000,
+      "source": "audit",
+      "category": "system",
+      "action": "TRANSFERT_UDP",
+      "actor_id": "user_5a5fadaa",
+      "resource": ":server_1.0",
+      "succes": false,
+      "severite": "INFO",
+      "risque_score": 0.8,
+      "details": {
+        "resource_id": "server_1.0",
+        "details": {
+          "header_length": 8.0,
+          "malware_family": "Benign",
+          "protocol": "UDP",
+          "rate": 1.6609101991462811
+        },
+        "risque_score": 0.1
+      },
+      "flags": [
+        "ECHEC",
+        "HEURE_INHABITUELLE"
+      ]
+    },
+    {
+      "event_id": "5a5fadaafa8642fd060a5c77b7ca56af6bc5e126b59f48acc02805d260712757",
+      "timestamp_iso": "2023-01-01T00:00:00",
+      "timestamp_ms": 1672549200000,
+      "source": "audit",
+      "category": "system",
+      "action": "TRANSFERT_UDP",
+      "actor_id": "user_5a5fadaa",
+      "resource": ":server_0.9",
+      "succes": false,
+      "severite": "INFO",
+      "risque_score": 0.8,
+      "details": {
+        "resource_id": "server_0.9",
+        "details": {
+          "header_length": 7.2,
+          "malware_family": "Benign",
+          "protocol": "UDP",
+          "rate": 1.264710656290519
+        },
+        "risque_score": 0.1
+      },
+      "flags": [
+        "ECHEC",
+        "HEURE_INHABITUELLE"
+      ]
+    },
+    {
+      "event_id": "5a5fadaafa8642fd060a5c77b7ca56af6bc5e126b59f48acc02805d260712757",
+      "timestamp_iso": "2023-01-01T00:00:00",
+      "timestamp_ms": 1672549200000,
+      "source": "audit",
+      "category": "system",
+      "action": "TRANSFERT_UDP",
+      "actor_id": "user_5a5fadaa",
+      "resource": ":server_0.8",
+      "succes": false,
+      "severite": "INFO",
+      "risque_score": 0.8,
+      "details": {
+        "resource_id": "server_0.8",
+        "details": {
+          "header_length": 6.4,
+          "malware_family": "Benign",
+          "protocol": "UDP",
+          "rate": 1.2279104843776256
+        },
+        "risque_score": 0.1
+      },
+      "flags": [
+        "ECHEC",
+        "HEURE_INHABITUELLE"
+      ]
+    },
+    {
+      "event_id": "5a5fadaafa8642fd060a5c77b7ca56af6bc5e126b59f48acc02805d260712757",
+      "timestamp_iso": "2023-01-01T00:00:00",
+      "timestamp_ms": 1672549200000,
+      "source": "audit",
+      "category": "system",
+      "action": "TRANSFERT_UDP",
+      "actor_id": "user_5a5fadaa",
+      "resource": ":server_1.0",
+      "succes": false,
+      "severite": "INFO",
+      "risque_score": 0.8,
+      "details": {
+        "resource_id": "server_1.0",
+        "details": {
+          "header_length": 8.0,
+          "malware_family": "Benign",
+          "protocol": "UDP",
+          "rate": 1.330869995578367
+        },
+        "risque_score": 0.1
+      },
+      "flags": [
+        "ECHEC",
+        "HEURE_INHABITUELLE"
+      ]
+    },
+    {
+      "event_id": "5a5fadaafa8642fd060a5c77b7ca56af6bc5e126b59f48acc02805d260712757",
+      "timestamp_iso": "2023-01-01T00:00:00",
+      "timestamp_ms": 1672549200000,
+      "source": "audit",
+      "category": "system",
+      "action": "TRANSFERT_UDP",
+      "actor_id": "user_5a5fadaa",
+      "resource": ":server_0.7",
+      "succes": false,
+      "severite": "INFO",
+      "risque_score": 0.8,
+      "details": {
+        "resource_id": "server_0.7",
+        "details": {
+          "header_length": 5.6,
+          "malware_family": "Benign",
+          "protocol": "UDP",
+          "rate": 2.665695713631732
+        },
+        "risque_score": 0.1
+      },
+      "flags": [
+        "ECHEC",
+        "HEURE_INHABITUELLE"
+      ]
+    },
+    {
+      "event_id": "5a5fadaafa8642fd060a5c77b7ca56af6bc5e126b59f48acc02805d260712757",
+      "timestamp_iso": "2023-01-01T00:00:00",
+      "timestamp_ms": 1672549200000,
+      "source": "audit",
+      "category": "system",
+      "action": "TRANSFERT_UDP",
+      "actor_id": "user_5a5fadaa",
+      "resource": ":server_1.0",
+      "succes": false,
+      "severite": "INFO",
+      "risque_score": 0.8,
+      "details": {
+        "resource_id": "server_1.0",
+        "details": {
+          "header_length": 8.0,
+          "malware_family": "Benign",
+          "protocol": "UDP",
+          "rate": 2.4864927544204964
+        },
+        "risque_score": 0.1
+      },
+      "flags": [
+        "ECHEC",
+        "HEURE_INHABITUELLE"
+      ]
+    },
+    {
+      "event_id": "5a5fadaafa8642fd060a5c77b7ca56af6bc5e126b59f48acc02805d260712757",
+      "timestamp_iso": "2023-01-01T00:00:00",
+      "timestamp_ms": 1672549200000,
+      "source": "audit",
+      "category": "system",
+      "action": "TRANSFERT_UDP",
+      "actor_id": "user_5a5fadaa",
+      "resource": ":server_1.0",
+      "succes": false,
+      "severite": "INFO",
+      "risque_score": 0.8,
+      "details": {
+        "resource_id": "server_1.0",
+        "details": {
+          "header_length": 8.0,
+          "malware_family": "Benign",
+          "protocol": "UDP",
+          "rate": 1.991381371554956
+        },
+        "risque_score": 0.1
+      },
+      "flags": [
+        "ECHEC",
+        "HEURE_INHABITUELLE"
+      ]
+    },
+    {
+      "event_id": "5a5fadaafa8642fd060a5c77b7ca56af6bc5e126b59f48acc02805d260712757",
+      "timestamp_iso": "2023-01-01T00:00:00",
+      "timestamp_ms": 1672549200000,
+      "source": "audit",
+      "category": "system",
+      "action": "TRANSFERT_UDP",
+      "actor_id": "user_5a5fadaa",
+      "resource": ":server_0.9",
+      "succes": false,
+      "severite": "INFO",
+      "risque_score": 0.8,
+      "details": {
+        "resource_id": "server_0.9",
+        "details": {
+          "header_length": 7.2,
+          "malware_family": "Benign",
+          "protocol": "UDP",
+          "rate": 2.910876652387471
+        },
+        "risque_score": 0.1
+      },
+      "flags": [
+        "ECHEC",
+        "HEURE_INHABITUELLE"
+      ]
+    },
+    {
+      "event_id": "5a5fadaafa8642fd060a5c77b7ca56af6bc5e126b59f48acc02805d260712757",
+      "timestamp_iso": "2023-01-01T00:00:00",
+      "timestamp_ms": 1672549200000,
+      "source": "audit",
+      "category": "system",
+      "action": "TRANSFERT_UDP",
+      "actor_id": "user_5a5fadaa",
+      "resource": ":server_1.0",
+      "succes": false,
+      "severite": "INFO",
+      "risque_score": 0.8,
+      "details": {
+        "resource_id": "server_1.0",
+        "details": {
+          "header_length": 8.0,
+          "malware_family": "Benign",
+          "protocol": "UDP",
+          "rate": 2.477395551737548
+        },
+        "risque_score": 0.1
+      },
+      "flags": [
+        "ECHEC",
+        "HEURE_INHABITUELLE"
+      ]
+    },
+    {
+      "event_id": "5a5fadaafa8642fd060a5c77b7ca56af6bc5e126b59f48acc02805d260712757",
+      "timestamp_iso": "2023-01-01T00:00:00",
+      "timestamp_ms": 1672549200000,
+      "source": "audit",
+      "category": "system",
+      "action": "TRANSFERT_UDP",
+      "actor_id": "user_5a5fadaa",
+      "resource": ":server_1.0",
+      "succes": false,
+      "severite": "INFO",
+      "risque_score": 0.8,
+      "details": {
+        "resource_id": "server_1.0",
+        "details": {
+          "header_length": 8.0,
+          "malware_family": "Benign",
+          "protocol": "UDP",
+          "rate": 3.3184367893499984
+        },
+        "risque_score": 0.1
+      },
+      "flags": [
+        "ECHEC",
+        "HEURE_INHABITUELLE"
+      ]
+    },
+    {
+      "event_id": "5a5fadaafa8642fd060a5c77b7ca56af6bc5e126b59f48acc02805d260712757",
+      "timestamp_iso": "2023-01-01T00:00:00",
+      "timestamp_ms": 1672549200000,
+      "source": "audit",
+      "category": "system",
+      "action": "TRANSFERT_UDP",
+      "actor_id": "user_5a5fadaa",
+      "resource": ":server_1.0",
+      "succes": false,
+      "severite": "INFO",
+      "risque_score": 0.8,
+      "details": {
+        "resource_id": "server_1.0",
+        "details": {
+          "header_length": 8.0,
+          "malware_family": "Benign",
+          "protocol": "UDP",
+          "rate": 2.4888616087336213
+        },
+        "risque_score": 0.1
+      },
+      "flags": [
+        "ECHEC",
+        "HEURE_INHABITUELLE"
+      ]
+    },
+    {
+      "event_id": "5a5fadaafa8642fd060a5c77b7ca56af6bc5e126b59f48acc02805d260712757",
+      "timestamp_iso": "2023-01-01T00:00:00",
+      "timestamp_ms": 1672549200000,
+      "source": "audit",
+      "category": "system",
+      "action": "TRANSFERT_UDP",
+      "actor_id": "user_5a5fadaa",
+      "resource": ":server_1.0",
+      "succes": false,
+      "severite": "INFO",
+      "risque_score": 0.8,
+      "details": {
+        "resource_id": "server_1.0",
+        "details": {
+          "header_length": 8.0,
+          "malware_family": "Benign",
+          "protocol": "UDP",
+          "rate": 1.9919025579085643
+        },
+        "risque_score": 0.1
+      },
+      "flags": [
+        "ECHEC",
+        "HEURE_INHABITUELLE"
+      ]
+    },
+    {
+      "event_id": "5a5fadaafa8642fd060a5c77b7ca56af6bc5e126b59f48acc02805d260712757",
+      "timestamp_iso": "2023-01-01T00:00:00",
+      "timestamp_ms": 1672549200000,
+      "source": "audit",
+      "category": "system",
+      "action": "TRANSFERT_UDP",
+      "actor_id": "user_5a5fadaa",
+      "resource": ":server_1.0",
+      "succes": false,
+      "severite": "INFO",
+      "risque_score": 0.8,
+      "details": {
+        "resource_id": "server_1.0",
+        "details": {
+          "header_length": 8.0,
+          "malware_family": "Benign",
+          "protocol": "UDP",
+          "rate": 3.3149132146858507
+        },
+        "risque_score": 0.1
+      },
+      "flags": [
+        "ECHEC",
+        "HEURE_INHABITUELLE"
+      ]
+    },
+    {
+      "event_id": "5a5fadaafa8642fd060a5c77b7ca56af6bc5e126b59f48acc02805d260712757",
+      "timestamp_iso": "2023-01-01T00:00:00",
+      "timestamp_ms": 1672549200000,
+      "source": "audit",
+      "category": "system",
+      "action": "TRANSFERT_UDP",
+      "actor_id": "user_5a5fadaa",
+      "resource": ":server_1.0",
+      "succes": false,
+      "severite": "INFO",
+      "risque_score": 0.8,
+      "details": {
+        "resource_id": "server_1.0",
+        "details": {
+          "header_length": 8.0,
+          "malware_family": "Benign",
+          "protocol": "UDP",
+          "rate": 2.4865736828235803
+        },
+        "risque_score": 0.1
+      },
+      "flags": [
+        "ECHEC",
+        "HEURE_INHABITUELLE"
+      ]
+    },
+    {
+      "event_id": "5a5fadaafa8642fd060a5c77b7ca56af6bc5e126b59f48acc02805d260712757",
+      "timestamp_iso": "2023-01-01T00:00:00",
+      "timestamp_ms": 1672549200000,
+      "source": "audit",
+      "category": "system",
+      "action": "TRANSFERT_UDP",
+      "actor_id": "user_5a5fadaa",
+      "resource": ":server_1.0",
+      "succes": false,
+      "severite": "INFO",
+      "risque_score": 0.8,
+      "details": {
+        "resource_id": "server_1.0",
+        "details": {
+          "header_length": 8.0,
+          "malware_family": "Benign",
+          "protocol": "UDP",
+          "rate": 3.3170091476861265
+        },
+        "risque_score": 0.1
+      },
+      "flags": [
+        "ECHEC",
+        "HEURE_INHABITUELLE"
+      ]
+    },
+    {
+      "event_id": "5a5fadaafa8642fd060a5c77b7ca56af6bc5e126b59f48acc02805d260712757",
+      "timestamp_iso": "2023-01-01T00:00:00",
+      "timestamp_ms": 1672549200000,
+      "source": "audit",
+      "category": "system",
+      "action": "TRANSFERT_UDP",
+      "actor_id": "user_5a5fadaa",
+      "resource": ":server_1.0",
+      "succes": false,
+      "severite": "INFO",
+      "risque_score": 0.8,
+      "details": {
+        "resource_id": "server_1.0",
+        "details": {
+          "header_length": 8.0,
+          "malware_family": "Benign",
+          "protocol": "UDP",
+          "rate": 2.4880183077351177
+        },
+        "risque_score": 0.1
+      },
+      "flags": [
+        "ECHEC",
+        "HEURE_INHABITUELLE"
+      ]
+    },
+    {
+      "event_id": "5a5fadaafa8642fd060a5c77b7ca56af6bc5e126b59f48acc02805d260712757",
+      "timestamp_iso": "2023-01-01T00:00:00",
+      "timestamp_ms": 1672549200000,
+      "source": "audit",
+      "category": "system",
+      "action": "TRANSFERT_UDP",
+      "actor_id": "user_5a5fadaa",
+      "resource": ":server_1.0",
+      "succes": false,
+      "severite": "INFO",
+      "risque_score": 0.8,
+      "details": {
+        "resource_id": "server_1.0",
+        "details": {
+          "header_length": 8.0,
+          "malware_family": "Benign",
+          "protocol": "UDP",
+          "rate": 2.488804602946059
+        },
+        "risque_score": 0.1
+      },
+      "flags": [
+        "ECHEC",
+        "HEURE_INHABITUELLE"
+      ]
+    },
+    {
+      "event_id": "5a5fadaafa8642fd060a5c77b7ca56af6bc5e126b59f48acc02805d260712757",
+      "timestamp_iso": "2023-01-01T00:00:00",
+      "timestamp_ms": 1672549200000,
+      "source": "audit",
+      "category": "system",
+      "action": "TRANSFERT_UDP",
+      "actor_id": "user_5a5fadaa",
+      "resource": ":server_1.0",
+      "succes": false,
+      "severite": "INFO",
+      "risque_score": 0.8,
+      "details": {
+        "resource_id": "server_1.0",
+        "details": {
+          "header_length": 8.0,
+          "malware_family": "Benign",
+          "protocol": "UDP",
+          "rate": 2.487249766058914
+        },
+        "risque_score": 0.1
+      },
+      "flags": [
+        "ECHEC",
+        "HEURE_INHABITUELLE"
+      ]
+    },
+    {
+      "event_id": "5a5fadaafa8642fd060a5c77b7ca56af6bc5e126b59f48acc02805d260712757",
+      "timestamp_iso": "2023-01-01T00:00:00",
+      "timestamp_ms": 1672549200000,
+      "source": "audit",
+      "category": "system",
+      "action": "TRANSFERT_UDP",
+      "actor_id": "user_5a5fadaa",
+      "resource": ":server_1.0",
+      "succes": false,
+      "severite": "INFO",
+      "risque_score": 0.8,
+      "details": {
+        "resource_id": "server_1.0",
+        "details": {
+          "header_length": 8.0,
+          "malware_family": "Benign",
+          "protocol": "UDP",
+          "rate": 1.9910843483535527
+        },
+        "risque_score": 0.1
+      },
+      "flags": [
+        "ECHEC",
+        "HEURE_INHABITUELLE"
+      ]
+    },
+    {
+      "event_id": "5a5fadaafa8642fd060a5c77b7ca56af6bc5e126b59f48acc02805d260712757",
+      "timestamp_iso": "2023-01-01T00:00:00",
+      "timestamp_ms": 1672549200000,
+      "source": "audit",
+      "category": "system",
+      "action": "TRANSFERT_UDP",
+      "actor_id": "user_5a5fadaa",
+      "resource": ":server_1.0",
+      "succes": false,
+      "severite": "INFO",
+      "risque_score": 0.8,
+      "details": {
+        "resource_id": "server_1.0",
+        "details": {
+          "header_length": 8.0,
+          "malware_family": "Benign",
+          "protocol": "UDP",
+          "rate": 3.3155617663596373
+        },
+        "risque_score": 0.1
+      },
+      "flags": [
+        "ECHEC",
+        "HEURE_INHABITUELLE"
+      ]
+    },
+    {
+      "event_id": "5a5fadaafa8642fd060a5c77b7ca56af6bc5e126b59f48acc02805d260712757",
+      "timestamp_iso": "2023-01-01T00:00:00",
+      "timestamp_ms": 1672549200000,
+      "source": "audit",
+      "category": "system",
+      "action": "TRANSFERT_UDP",
+      "actor_id": "user_5a5fadaa",
+      "resource": ":server_1.0",
+      "succes": false,
+      "severite": "INFO",
+      "risque_score": 0.8,
+      "details": {
+        "resource_id": "server_1.0",
+        "details": {
+          "header_length": 8.0,
+          "malware_family": "Benign",
+          "protocol": "UDP",
+          "rate": 2.986596182219007
+        },
+        "risque_score": 0.1
+      },
+      "flags": [
+        "ECHEC",
+        "HEURE_INHABITUELLE"
+      ]
+    }
+  ],
+  "anomalies": [
+    {
+      "signal_id": "5a1d8611-4966-4760-b648-23e57ac40136",
+      "detected_at": "2026-04-13T23:58:11.632676+00:00",
+      "type_anomalie": "off_hours_activity",
+      "severite": "WARNING",
+      "score": 0.55,
+      "events_count": 25,
+      "actor_id": "user_5a5fadaa",
+      "description": "25 événements hors heures ouvrables (22h–6h) en 24h",
+      "recommandation": "Confirmer avec l'utilisateur si l'activité était légitime.",
+      "event_ids": [
+        "5a5fadaafa8642fd060a5c77b7ca56af6bc5e126b59f48acc02805d260712757",
+        "5a5fadaafa8642fd060a5c77b7ca56af6bc5e126b59f48acc02805d260712757",
+        "5a5fadaafa8642fd060a5c77b7ca56af6bc5e126b59f48acc02805d260712757",
+        "5a5fadaafa8642fd060a5c77b7ca56af6bc5e126b59f48acc02805d260712757",
+        "5a5fadaafa8642fd060a5c77b7ca56af6bc5e126b59f48acc02805d260712757",
+        "5a5fadaafa8642fd060a5c77b7ca56af6bc5e126b59f48acc02805d260712757",
+        "5a5fadaafa8642fd060a5c77b7ca56af6bc5e126b59f48acc02805d260712757",
+        "5a5fadaafa8642fd060a5c77b7ca56af6bc5e126b59f48acc02805d260712757",
+        "5a5fadaafa8642fd060a5c77b7ca56af6bc5e126b59f48acc02805d260712757",
+        "5a5fadaafa8642fd060a5c77b7ca56af6bc5e126b59f48acc02805d260712757",
+        "5a5fadaafa8642fd060a5c77b7ca56af6bc5e126b59f48acc02805d260712757",
+        "5a5fadaafa8642fd060a5c77b7ca56af6bc5e126b59f48acc02805d260712757",
+        "5a5fadaafa8642fd060a5c77b7ca56af6bc5e126b59f48acc02805d260712757",
+        "5a5fadaafa8642fd060a5c77b7ca56af6bc5e126b59f48acc02805d260712757",
+        "5a5fadaafa8642fd060a5c77b7ca56af6bc5e126b59f48acc02805d260712757",
+        "5a5fadaafa8642fd060a5c77b7ca56af6bc5e126b59f48acc02805d260712757",
+        "5a5fadaafa8642fd060a5c77b7ca56af6bc5e126b59f48acc02805d260712757",
+        "5a5fadaafa8642fd060a5c77b7ca56af6bc5e126b59f48acc02805d260712757",
+        "5a5fadaafa8642fd060a5c77b7ca56af6bc5e126b59f48acc02805d260712757",
+        "5a5fadaafa8642fd060a5c77b7ca56af6bc5e126b59f48acc02805d260712757"
+      ]
+    }
+  ],
+  "statistics": {
+    "total_events": 25,
+    "echecs": 25,
+    "taux_echec_pct": 100.0,
+    "risque_moyen": 0.8,
+    "par_source": {
+      "audit": 25
+    },
+    "par_categorie": {
+      "system": 25
+    },
+    "par_severite": {
+      "INFO": 25
+    },
+    "top_actions": {
+      "TRANSFERT_UDP": 25
+    },
+    "transactions": {},
+    "periode": {
+      "debut": "2023-01-01T00:00:00",
+      "fin": "2023-01-01T00:00:00"
+    }
+  },
+  "risk_assessment": {
+    "score_global": 0.57,
+    "niveau": "MODÉRÉ",
+    "anomalies_total": 1,
+    "critiques": 0,
+    "erreurs": 0,
+    "taux_echec_pct": 100.0,
+    "risque_moyen_evt": 0.8
+  },
+  "recommendations": [
+    "[WARNING] Confirmer avec l'utilisateur si l'activité était légitime.",
+    "Surveiller l'activité de cet acteur pendant 7 jours.",
+    "Conserver ce rapport pendant au moins 3 ans (conformité RGPD Art.30)."
+  ],
+  "graph_summary": {
+    "total_actors": 1,
+    "total_resources": 4,
+    "total_edges": 4,
+    "top_actors": [
+      {
+        "id": "user_5a5fadaa",
+        "events": 25
+      }
+    ],
+    "top_resources": [
+      {
+        "id": ":server_1.0",
+        "events": 19
+      },
+      {
+        "id": ":server_0.9",
+        "events": 4
+      },
+      {
+        "id": ":server_0.8",
+        "events": 1
+      },
+      {
+        "id": ":server_0.7",
+        "events": 1
+      }
+    ],
+    "top_relations": [
+      {
+        "actor": "user_5a5fadaa",
+        "resource": ":server_1.0",
+        "count": 19
+      },
+      {
+        "actor": "user_5a5fadaa",
+        "resource": ":server_0.9",
+        "count": 4
+      },
+      {
+        "actor": "user_5a5fadaa",
+        "resource": ":server_0.8",
+        "count": 1
+      },
+      {
+        "actor": "user_5a5fadaa",
+        "resource": ":server_0.7",
+        "count": 1
+      }
+    ]
+  },
+  "signature_ed25519": null,
+  "signature_hash": "7eda181fc80ad92dbb100bb32acb2956805b4846273b6e3bdbf37e137c99a7f3"
+}

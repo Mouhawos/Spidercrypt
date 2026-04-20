@@ -1,0 +1,417 @@
+{
+  "report_id": "eb33e83b-6a00-42e5-b75d-74969974eaaa",
+  "generated_at": "2026-04-13T09:25:11.723071+00:00",
+  "analyst": "SpidercryptTS/1.0",
+  "entity": {
+    "entity_id": "host_ddos_004",
+    "window_hours": 24,
+    "since": "2026-04-12T09:25:11.723000+00:00",
+    "until": "2026-04-13T09:25:11.723071+00:00"
+  },
+  "window": {
+    "hours": 24,
+    "since_ms": 1775985911723
+  },
+  "streams_analyzed": 3,
+  "total_points": 600,
+  "baselines": {
+    "net_connections": {
+      "mean": 1393.0835,
+      "std": 1353.0776,
+      "median": 782.7919,
+      "p95": 3603.9002,
+      "p99": 3963.8267,
+      "n_points": 100,
+      "is_periodic": true,
+      "period_min": 1.0
+    },
+    "bytes_in": {
+      "mean": 5573.7197,
+      "std": 5147.0993,
+      "median": 4166.02,
+      "p95": 12113.712,
+      "p99": 14267.5128,
+      "n_points": 100,
+      "is_periodic": true,
+      "period_min": 1.0
+    },
+    "log_volume": {
+      "mean": 883.1167,
+      "std": 103.5631,
+      "median": 886.725,
+      "p95": 1063.9105,
+      "p99": 1089.4243,
+      "n_points": 100,
+      "is_periodic": true,
+      "period_min": 1.0
+    }
+  },
+  "alerts": [
+    {
+      "alert_id": "0991b47b-794d-4f8d-9dcb-5fcea8d045cd",
+      "detected_at": "2026-04-13T09:25:11.760045+00:00",
+      "entity_id": "host_ddos_004",
+      "signal_type": "net_connections",
+      "anomaly_type": "level_shift",
+      "severity": "CRITICAL",
+      "threat_category": "ddos",
+      "detection_method": "changepoint",
+      "score": 7.755296476976076,
+      "threshold": 3.0,
+      "observed_value": 1006.6752,
+      "expected_value": 114.979,
+      "deviation_pct": 775.5,
+      "window_start": "2026-04-13T08:29:10.918000+00:00",
+      "window_end": "2026-04-13T09:24:10.918000+00:00",
+      "n_points": 56,
+      "context": {
+        "changepoint_index": 144,
+        "shift_ratio": 7.7553
+      },
+      "is_business_hours": true,
+      "correlated_alerts": [
+        "f24dd4fb-3fca-4014-a0c2-85fb372d7c88"
+      ],
+      "mitre_technique": "T1498 - Network Denial of Service",
+      "recommended_action": "Activer la mitigation DDoS. Contacter l'opérateur réseau. Basculer en mode dégradé."
+    },
+    {
+      "alert_id": "c24ddfb3-cf00-4107-b6cf-17d7c718d3e2",
+      "detected_at": "2026-04-13T09:25:11.724669+00:00",
+      "entity_id": "host_ddos_004",
+      "signal_type": "net_connections",
+      "anomaly_type": "spike",
+      "severity": "LOW",
+      "threat_category": "ddos",
+      "detection_method": "mad",
+      "score": 2.9655,
+      "threshold": 2.9167,
+      "observed_value": 3966.0487,
+      "expected_value": 782.7919,
+      "deviation_pct": 406.7,
+      "window_start": "2026-04-13T09:18:10.918000+00:00",
+      "window_end": "2026-04-13T09:18:10.918000+00:00",
+      "n_points": 1,
+      "context": {},
+      "is_business_hours": true,
+      "correlated_alerts": [
+        "f24dd4fb-3fca-4014-a0c2-85fb372d7c88"
+      ],
+      "mitre_technique": "T1498 - Network Denial of Service",
+      "recommended_action": "Activer la mitigation DDoS. Contacter l'opérateur réseau. Basculer en mode dégradé."
+    },
+    {
+      "alert_id": "8a26188c-4bcd-4d5a-9b5f-8e833049ad76",
+      "detected_at": "2026-04-13T09:25:11.759888+00:00",
+      "entity_id": "host_ddos_004",
+      "signal_type": "net_connections",
+      "anomaly_type": "level_shift",
+      "severity": "HIGH",
+      "threat_category": "ddos",
+      "detection_method": "changepoint",
+      "score": 1.2080449826989619,
+      "threshold": 3.0,
+      "observed_value": 66.365,
+      "expected_value": 30.056,
+      "deviation_pct": 120.8,
+      "window_start": "2026-04-13T06:54:10.918000+00:00",
+      "window_end": "2026-04-13T09:24:10.918000+00:00",
+      "n_points": 151,
+      "context": {
+        "changepoint_index": 49,
+        "shift_ratio": 1.208
+      },
+      "is_business_hours": false,
+      "correlated_alerts": [
+        "f24dd4fb-3fca-4014-a0c2-85fb372d7c88"
+      ],
+      "mitre_technique": "T1498 - Network Denial of Service",
+      "recommended_action": "Activer la mitigation DDoS. Contacter l'opérateur réseau. Basculer en mode dégradé."
+    },
+    {
+      "alert_id": "7efc9db6-e731-45de-aeaf-53ee013f47e2",
+      "detected_at": "2026-04-13T09:25:11.794120+00:00",
+      "entity_id": "host_ddos_004",
+      "signal_type": "bytes_in",
+      "anomaly_type": "level_shift",
+      "severity": "CRITICAL",
+      "threat_category": "ddos",
+      "detection_method": "changepoint",
+      "score": 5.182761458786203,
+      "threshold": 3.0,
+      "observed_value": 3725.967,
+      "expected_value": 602.638,
+      "deviation_pct": 518.3,
+      "window_start": "2026-04-13T08:28:10.918000+00:00",
+      "window_end": "2026-04-13T09:24:10.918000+00:00",
+      "n_points": 57,
+      "context": {
+        "changepoint_index": 143,
+        "shift_ratio": 5.1828
+      },
+      "is_business_hours": true,
+      "correlated_alerts": [
+        "f24dd4fb-3fca-4014-a0c2-85fb372d7c88"
+      ],
+      "mitre_technique": "T1498 - Network Denial of Service",
+      "recommended_action": "Activer la mitigation DDoS. Contacter l'opérateur réseau. Basculer en mode dégradé."
+    },
+    {
+      "alert_id": "77960163-78e5-4f3d-ab1e-b480d7166e6f",
+      "detected_at": "2026-04-13T09:25:11.793954+00:00",
+      "entity_id": "host_ddos_004",
+      "signal_type": "bytes_in",
+      "anomaly_type": "level_shift",
+      "severity": "MEDIUM",
+      "threat_category": "ddos",
+      "detection_method": "changepoint",
+      "score": 0.7942245365231785,
+      "threshold": 3.0,
+      "observed_value": 282.89,
+      "expected_value": 157.667,
+      "deviation_pct": 79.4,
+      "window_start": "2026-04-13T06:54:10.918000+00:00",
+      "window_end": "2026-04-13T09:24:10.918000+00:00",
+      "n_points": 151,
+      "context": {
+        "changepoint_index": 49,
+        "shift_ratio": 0.7942
+      },
+      "is_business_hours": false,
+      "correlated_alerts": [
+        "f24dd4fb-3fca-4014-a0c2-85fb372d7c88"
+      ],
+      "mitre_technique": "T1498 - Network Denial of Service",
+      "recommended_action": "Activer la mitigation DDoS. Contacter l'opérateur réseau. Basculer en mode dégradé."
+    },
+    {
+      "alert_id": "2f833905-a495-4354-8b66-ffe350c09167",
+      "detected_at": "2026-04-13T09:25:11.795641+00:00",
+      "entity_id": "host_ddos_004",
+      "signal_type": "log_volume",
+      "anomaly_type": "dip",
+      "severity": "HIGH",
+      "threat_category": "log_tampering",
+      "detection_method": "zscore",
+      "score": 6.74,
+      "threshold": 3.3333,
+      "observed_value": 185.1,
+      "expected_value": 883.1167,
+      "deviation_pct": -79.0,
+      "window_start": "2026-04-13T06:54:10.918000+00:00",
+      "window_end": "2026-04-13T06:54:10.918000+00:00",
+      "n_points": 1,
+      "context": {},
+      "is_business_hours": false,
+      "correlated_alerts": [],
+      "mitre_technique": "T1070 - Indicator Removal",
+      "recommended_action": "CRITIQUE — Préserver les preuves. Activer la journalisation de secours. Alerter RSSI."
+    },
+    {
+      "alert_id": "52827f6e-196c-4595-87e9-d112994ec21d",
+      "detected_at": "2026-04-13T09:25:11.797092+00:00",
+      "entity_id": "host_ddos_004",
+      "signal_type": "log_volume",
+      "anomaly_type": "contextual",
+      "severity": "LOW",
+      "threat_category": "log_tampering",
+      "detection_method": "zscore",
+      "score": 2.0885,
+      "threshold": 2.0833,
+      "observed_value": 712.22,
+      "expected_value": 928.5112,
+      "deviation_pct": -23.3,
+      "window_start": "2026-04-13T09:16:10.918000+00:00",
+      "window_end": "2026-04-13T09:16:10.918000+00:00",
+      "n_points": 1,
+      "context": {
+        "hour": 9,
+        "is_business": true,
+        "hourly_expected": 928.5112
+      },
+      "is_business_hours": true,
+      "correlated_alerts": [],
+      "mitre_technique": "T1070 - Indicator Removal",
+      "recommended_action": "CRITIQUE — Préserver les preuves. Activer la journalisation de secours. Alerter RSSI."
+    }
+  ],
+  "correlations": [
+    {
+      "correlation_id": "f24dd4fb-3fca-4014-a0c2-85fb372d7c88",
+      "computed_at": "2026-04-13T09:25:11.831015+00:00",
+      "entity_id": "host_ddos_004",
+      "signals_analyzed": [
+        "bytes_in",
+        "net_connections",
+        "log_volume"
+      ],
+      "combined_score": 0.5175,
+      "threat_category": "ddos",
+      "confidence": 0.6088,
+      "alert_ids": [
+        "0991b47b-794d-4f8d-9dcb-5fcea8d045cd",
+        "c24ddfb3-cf00-4107-b6cf-17d7c718d3e2",
+        "8a26188c-4bcd-4d5a-9b5f-8e833049ad76",
+        "7efc9db6-e731-45de-aeaf-53ee013f47e2",
+        "77960163-78e5-4f3d-ab1e-b480d7166e6f"
+      ],
+      "narrative": "Explosion de connexions + trafic entrant massif → attaque DDoS.",
+      "mitre_chain": [
+        "T1498 - Network Denial of Service"
+      ]
+    }
+  ],
+  "risk_score": 0.5257,
+  "risk_level": "MODÉRÉ",
+  "forecasts": {
+    "net_connections": {
+      "forecast": [
+        2457.266,
+        2428.428,
+        2399.589,
+        2370.751,
+        2341.912,
+        2313.074,
+        2284.236,
+        2255.397,
+        2226.559,
+        2197.72,
+        2168.882,
+        2140.044
+      ],
+      "lower_95": [
+        1901.226,
+        1872.387,
+        1843.549,
+        1814.711,
+        1785.872,
+        1757.034,
+        1728.195,
+        1699.357,
+        1670.519,
+        1641.68,
+        1612.842,
+        1584.003
+      ],
+      "upper_95": [
+        3013.306,
+        2984.468,
+        2955.629,
+        2926.791,
+        2897.953,
+        2869.114,
+        2840.276,
+        2811.437,
+        2782.599,
+        2753.76,
+        2724.922,
+        2696.084
+      ],
+      "trend_per_step": -28.8384,
+      "method": "ewma"
+    },
+    "bytes_in": {
+      "forecast": [
+        9844.444,
+        9679.082,
+        9513.72,
+        9348.359,
+        9182.997,
+        9017.635,
+        8852.273,
+        8686.911,
+        8521.549,
+        8356.187,
+        8190.826,
+        8025.464
+      ],
+      "lower_95": [
+        8011.023,
+        7845.661,
+        7680.3,
+        7514.938,
+        7349.576,
+        7184.214,
+        7018.852,
+        6853.49,
+        6688.128,
+        6522.767,
+        6357.405,
+        6192.043
+      ],
+      "upper_95": [
+        11677.865,
+        11512.503,
+        11347.141,
+        11181.779,
+        11016.418,
+        10851.056,
+        10685.694,
+        10520.332,
+        10354.97,
+        10189.608,
+        10024.246,
+        9858.885
+      ],
+      "trend_per_step": -165.3619,
+      "method": "ewma"
+    },
+    "log_volume": {
+      "forecast": [
+        942.989,
+        943.028,
+        943.067,
+        943.106,
+        943.145,
+        943.184,
+        943.224,
+        943.263,
+        943.302,
+        943.341,
+        943.38,
+        943.419
+      ],
+      "lower_95": [
+        803.23,
+        803.269,
+        803.309,
+        803.348,
+        803.387,
+        803.426,
+        803.465,
+        803.504,
+        803.543,
+        803.582,
+        803.621,
+        803.66
+      ],
+      "upper_95": [
+        1082.748,
+        1082.787,
+        1082.826,
+        1082.865,
+        1082.904,
+        1082.943,
+        1082.982,
+        1083.021,
+        1083.06,
+        1083.099,
+        1083.139,
+        1083.178
+      ],
+      "trend_per_step": 0.039,
+      "method": "ewma"
+    }
+  },
+  "recommendations": [
+    "[CORRÉLATION · ddos] Activer la mitigation DDoS. Contacter l'opérateur réseau. Basculer en mode dégradé.",
+    "[HIGH · log_volume] CRITIQUE — Préserver les preuves. Activer la journalisation de secours. Alerter RSSI.",
+    "Surveillance renforcée pendant 7 jours. Ajuster les seuils de détection.",
+    "Conserver ce rapport 3 ans minimum (conformité RGPD Art.30)."
+  ],
+  "mitre_coverage": [
+    "T1498 - Network Denial of Service"
+  ],
+  "signature_hash": "95c8a99310c00ffd0ca4af2c6a24ece84fe16303a8f4315a14ce9045dd79bbc2",
+  "rgpd_retention_days": 1095
+}
