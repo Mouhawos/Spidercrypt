@@ -41,6 +41,9 @@ jobs:
           pip install -r requirements.txt
           pip install pytest pytest-asyncio pytest-cov anyio
 
+      - name: 🔧 Configurer PYTHONPATH
+        run: echo "PYTHONPATH=$PYTHONPATH:." >> $GITHUB_ENV
+
       - name: 🔐 Configurer les variables d'environnement de test
         run: |
           echo "SPIDERCRYPT_MASTER_KEY=$(python -c 'import os,base64; print(base64.b64encode(os.urandom(32)).decode())')" >> $GITHUB_ENV
