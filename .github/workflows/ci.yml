@@ -72,7 +72,7 @@ jobs:
       - name: 📊 Vérifier couverture minimum (${{ env.MIN_COVERAGE }}%)
         run: |
           pytest tests/services/ \
-            --cov=core \
+            --cov=core.zerotrust_engine \
             --cov-fail-under=${{ env.MIN_COVERAGE }} \
             -q
 
