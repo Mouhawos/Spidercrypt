@@ -292,12 +292,11 @@ class TestEncryptPiiColumns:
             assert isinstance(val, bytes)
 
     def test_chiffrement_reversible(self, pipeline, df_avec_pii):
-        """Les valeurs chiffrées peuvent être déchiffrées."""
-        result = pipeline.encrypt_pii_columns(df_avec_pii)
-        original_email = "alice@pme.fr"
-        encrypted_email = result["email_enc"].iloc[0]
-        decrypted = pipeline.crypto.decrypt(encrypted_email)
-        assert decrypted.decode() == original_email
+         result = pipeline.encrypt_pii_columns(df_avec_pii)
+         original_email = "alice@pme.fr"
+         encrypted_email = result["email_enc"].iloc[0]
+         decrypted = pipeline.crypto.decrypt(encrypted_email, aad=b"spidercrypt") # ← cette ligne
+         assert decrypted.decode() == original_email
 
     def test_strategie_hash(self, pipeline, df_avec_pii):
         """Stratégie hash → colonne remplacée par SHA-256."""
