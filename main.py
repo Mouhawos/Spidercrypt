@@ -17,6 +17,16 @@ from __future__ import annotations
 import logging
 import os
 import time
+import sentry_sdk
+import os
+
+sentry_sdk.init(
+    dsn=os.getenv("SENTRY_DSN", "https://747dacd774d2302db1fa3acfcc5d8113@o4507865010864128.ingest.us.sentry.io/4511258500268032"),
+    send_default_pii=True,
+    traces_sample_rate=1.0,
+    environment=os.getenv("ENV", "production"),
+    release="spidercrypt@1.0.0",
+)
 from contextlib import asynccontextmanager
 
 from fastapi import FastAPI, Request
