@@ -1,4 +1,7 @@
-﻿# SpiderCrypt
+
+
+
+# SpiderCrypt
 
 **Open-source AI Security & Document Intelligence Library**
 
@@ -7,55 +10,106 @@ SpiderCrypt is a growing collection of free, practical tools focused on AI secur
 ## Features
 
 ### SpiderOCR
-Local document OCR and structured extraction with vision-language models.
+
+Local document OCR and structured extraction using vision-language models.
 
 - Raw text extraction (OCR)
 - Structured document understanding (JSON)
 - Table and field extraction
-- Runs locally when a GPU is available (recommended: Kaggle T4 / CUDA)
+- Local execution when a GPU is available
+- Support for Qwen3-VL models
 
 ## Installation
 
-`ash
+```bash
 git clone https://github.com/Mouhawos/Spidercrypt.git
 cd Spidercrypt
 pip install -e .
-Dependencies include: torch, transformers, Pillow, bitsandbytes, accelerate.
-Quick start
-Pythonfrom spidercrypt import SpiderOCR
+````
+
+### Dependencies
+
+SpiderCrypt currently uses:
+
+* PyTorch
+* Transformers
+* Pillow
+* bitsandbytes
+* Accelerate
+
+## Quick Start
+
+### Raw OCR
+
+```python
+from spidercrypt import SpiderOCR
 
 engine = SpiderOCR()
 
-# Raw OCR
 text = engine.ocr("document.png")
+
 print(text)
+```
 
-# Structured extraction
-data = engine.extract_document("document.png")
-print(data)Note on hardware
 
-GPU (CUDA) : recommended for Qwen3-VL-8B in 8-bit
-CPU only : possible but slow and memory-heavy
-Kaggle : good option for free GPU testing
+## Hardware
 
-Roadmap
-Planned modules:
+### GPU
 
-Prompt injection detector
-Code security analyzer
-Model file scanner
-Agent / MCP security utilities
-Document forensics helpers Philosophy
+CUDA is recommended for running Qwen3-VL-8B in 8-bit.
 
-Open-source first
-Privacy-friendly (local when possible)
-Practical tools over hype
-Free for individuals and small projects
-Enterprise / custom options later
+Recommended environment:
 
-License
-MIT License — see LICENSE [blocked]
-Author
-Built by Mouhamed Sow
+* NVIDIA GPU
+* CUDA
+* At least 16 GB VRAM recommended
+* Kaggle T4 can be used for testing
 
-Founder of SpiderCrypt
+### CPU
+
+CPU-only execution is possible, but it can be significantly slower and more memory-intensive.
+
+## Roadmap
+
+Planned modules include:
+
+* [ ] Prompt injection detector
+* [ ] Code security analyzer
+* [ ] Model file scanner
+* [ ] Agent / MCP security utilities
+* [ ] Document forensics helpers
+* [ ] Additional AI security tools
+
+## Philosophy
+
+SpiderCrypt is built around a few principles:
+
+* **Open-source first**
+* **Privacy-friendly** — local execution whenever possible
+* **Practical tools over hype**
+* **Free for individuals and small projects**
+* **Local-first workflows**
+* **Transparent and developer-friendly**
+
+## Project Status
+
+SpiderCrypt is actively under development.
+
+The first major module, **SpiderOCR**, focuses on local document intelligence and structured extraction.
+
+More AI security tools will be added over time.
+
+## License
+
+MIT License — see [LICENSE](LICENSE).
+
+## Author
+
+Built by **Mouhamed Sow**
+
+Founder of **SpiderCrypt**
+
+GitHub: [Mouhawos](https://github.com/Mouhawos)
+
+```
+```
