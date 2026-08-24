@@ -1,0 +1,18 @@
+[project]
+name = "spidercrypt"
+version = "0.1.0"
+description = "Open-source AI Security & Document Intelligence tools"
+authors = [
+    {name = "Mouhamed Sow"}
+]
+dependencies = [
+    "torch",
+    "transformers",
+    "Pillow",
+    "bitsandbytes",
+    "accelerate"
+]
+requires-python = ">=3.10"
+
+[project.optional-dependencies]
+dev = ["pytest"]
