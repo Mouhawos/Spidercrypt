@@ -55,15 +55,7 @@ For **Qwen3-VL-8B in 8-bit**:
 * **Kaggle T4:** Good option for free GPU testing
 * **CPU only:** Possible, but significantly slower and more memory-intensive
 
-## Roadmap
 
-Planned modules:
-
-* Prompt injection detector
-* Code security analyzer
-* Model file scanner
-* Agent / MCP security utilities
-* Document forensics helpers
 
 ## Philosophy
 
@@ -71,7 +63,7 @@ Planned modules:
 * Privacy-friendly and local when possible
 * Practical tools over hype
 * Free for individuals and small projects
-* Enterprise and custom options later
+* Enterprise and custom options 
 
 ## License
 
