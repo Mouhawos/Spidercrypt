@@ -1,4 +1,4 @@
-# SpiderCrypt
+# SpiderOCR
 
 **Open-source AI Security & Document Intelligence Library**
 
